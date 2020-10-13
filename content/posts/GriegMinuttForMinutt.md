@@ -1,5 +1,5 @@
 ---
-title: "Grieg Minut by Minute"
+title: "Grieg Minute by Minute"
 department: "Project coordinator"
 firm: 'KODE, NRK, Bergen Philharmonic Orchestra'
 img: '../img/GriegMinuttForMinutt.jpg'
