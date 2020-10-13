@@ -1,4 +1,22 @@
 .post {
+  .backArrow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 2rem;
+    width: 5rem;
+    height: 5rem;
+    z-index: 2;
+    cursor: pointer;
+    svg {
+      color: $gray;
+    }
+    &:hover {
+      svg {
+        color: darken($gray, 25%);
+      }
+    }
+  }
   overflow: hidden;
   background: $base-background-color;
   h1 {

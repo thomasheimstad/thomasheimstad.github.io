@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
+import {FaArrowLeft} from 'react-icons/fa';
 import Hero from "../components/Modules/Hero";
 import UserInfo from "../components/UserInfo/UserInfo";
 import PostTags from "../components/PostTags/PostTags";
@@ -17,7 +18,10 @@ export default class PostTemplate extends React.Component {
     if (!post.id) {
       post.id = slug;
     }
-
+    const onClick = e => {
+      e.preventDefault()
+      history.back()
+    }
     return (
       <Layout>
         <div>
@@ -26,13 +30,16 @@ export default class PostTemplate extends React.Component {
           </Helmet>
           <SEO postPath={slug} postNode={postNode} postSEO />
           <div className="post flex column center">
+          <div className="backArrow">
+            <FaArrowLeft size={32} onClick={onClick} />
+            </div>
             <Hero fluid={post.img.childImageSharp.fluid} posY="50%" posX="20%" divider="2"/>
             <div className="article basePad" >
               <h1>{post.title}</h1>
               <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
-              <div className="post-meta">
+              {/*<div className="post-meta">
                 <PostTags tags={post.tags} />
-              </div>
+              </div>*/}
               <UserInfo config={config} />
             </div>
           </div>

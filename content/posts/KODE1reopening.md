@@ -2,7 +2,7 @@
 title: "Reopening KODE 1"
 department: "Event coordinator"
 firm: 'KODE'
-img: '../img/kari.jpg'
+img: '../img/DSCF0444.jpg'
 date: "2017"
 respons: '1500 opening day visitors, Prime Minister, Minster of Economy and Mayer of Bergen present. VIP-guestlist and logistics.'
 position: 3
