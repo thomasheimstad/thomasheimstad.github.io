@@ -31,8 +31,15 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "images",
+        path: `${__dirname}/content/img`
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "posts",
-        path: `${__dirname}/content/`
+        path: `${__dirname}/content/posts/`
       }
     },
     {
@@ -69,6 +76,7 @@ module.exports = {
         color: config.themeColor
       }
     },
+    "gatsby-plugin-sass",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     "gatsby-plugin-catch-links",
@@ -168,10 +176,17 @@ module.exports = {
                     }
                     frontmatter {
                       title
-                      cover
                       date
+                      hired
                       category
                       tags
+                      img {
+                        childImageSharp {
+                            fluid(maxWidth: 600, quality: 50) {
+                              src
+                          }
+                        }
+                      }
                     }
                   }
                 }

@@ -18,7 +18,13 @@ class SEO extends Component {
       description = postMeta.description
         ? postMeta.description
         : postNode.excerpt;
-      image = postMeta.cover;
+        if(!(Object.hasOwnProperty(postMeta, "img"))){
+          image = ''
+        } else if(typeof(postMeta.img.childImageSharp.fluid) !== 'undefined') {
+          image = image = postMeta.img.childImageSharp.fluid.src
+        } else {
+          image = postMeta.img.childImageSharp.fixed.src;
+        }
       postURL = urljoin(config.siteUrl, config.pathPrefix, postPath);
     } else {
       title = config.siteTitle;

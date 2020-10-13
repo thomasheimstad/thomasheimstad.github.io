@@ -1,0 +1,34 @@
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: $base-background-color;
+  border: 1px solid $secondary-font-color;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 0.5rem 1rem;
+  color: $base-font-color;
+  transition: $base-in-timing $base-in-duration;
+  &:hover {
+    border-bottom: 1px solid $secondary-font-color;
+    color: $action-color;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+}
+.activeButton {
+  a,h2,h3,h4 {
+    background: inherit;
+    border: 1px solid transparent;
+    color: lighten($action-color, 30%);
+  }
+}
+.post-tag-container {
+  button {
+    margin-right: 10px;
+  }
+}

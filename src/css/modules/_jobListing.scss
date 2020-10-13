@@ -1,0 +1,43 @@
+.jobListing {
+  background: $secondary-background-color;
+  width: 100%;
+  .cvView {
+    width: 100%;
+    > div {
+      align-items: baseline;
+    }
+    h2 {
+      color: $secondary-font-color;
+    }
+    .jobCard {
+      width: 20rem;
+      min-height: 25rem;
+      border: 1px solid $secondary-font-color;
+      border-radius: 2%;
+      margin: 2rem 1rem;
+      overflow: hidden;
+      transition: $base-in-timing $base-in-duration;
+      &:hover{
+        box-shadow: 5px 5px 15px darken($base-font-color, 10%);
+      }
+      .title {
+        padding: 3rem 0;
+        background: $base-background-color;
+        h3 {
+          letter-spacing: 0;
+          text-align: center;
+          color: $base-font-color;
+          margin: 0;
+        }
+      }
+      .content {
+        height: 100%;
+        padding: 0 1rem 1rem;
+        p {
+          color: $secondary-font-color;
+        }
+      }
+    }
+  }
+
+}

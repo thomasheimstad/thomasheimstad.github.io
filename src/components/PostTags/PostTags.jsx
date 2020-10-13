@@ -6,7 +6,7 @@ class PostTags extends Component {
   render() {
     const { tags } = this.props;
     return (
-      <div className="post-tag-container">
+      <div className="post-tag-container flex" style={{width: '100%'}}>
         {tags &&
           tags.map(tag => (
             <Link

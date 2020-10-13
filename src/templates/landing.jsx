@@ -2,8 +2,12 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
-import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
+import Welcome from "../components/Modules/Welcome";
+import JobListing from "../components/PostListing/JobListing";
+import EduListing from "../components/PostListing/EduListing";
+import ProjectListing from "../components/PostListing/ProjectListing";
+import SkilListing from "../components/PostListing/SkilListing";
 import config from "../../data/SiteConfig";
 
 class Landing extends React.Component {
@@ -12,11 +16,13 @@ class Landing extends React.Component {
     return (
       <Layout>
         <div className="landing-container">
-          <div className="posts-container">
             <Helmet title={config.siteTitle} />
             <SEO />
-            <PostListing postEdges={postEdges} />
-          </div>
+            <Welcome />
+            <JobListing />
+            <EduListing />
+            <ProjectListing />
+            <SkilListing />
         </div>
       </Layout>
     );
@@ -39,9 +45,20 @@ export const pageQuery = graphql`
           timeToRead
           frontmatter {
             title
+            firm
+            department
             tags
-            cover
+            img {
+              childImageSharp {
+                  fluid(maxWidth: 600, quality: 50) {
+                    src
+                }
+              }
+            }
             date
+            hired
+            respons
+            position
           }
         }
       }

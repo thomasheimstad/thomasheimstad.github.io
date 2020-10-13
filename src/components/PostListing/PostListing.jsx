@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
+import CVView from './CVView';
+import ProjectView from './ProjectView';
 
 class PostListing extends React.Component {
   getPostList() {
@@ -7,30 +9,49 @@ class PostListing extends React.Component {
     this.props.postEdges.forEach(postEdge => {
       postList.push({
         path: postEdge.node.fields.slug,
+        postdate: postEdge.node.fields.date,
         tags: postEdge.node.frontmatter.tags,
-        cover: postEdge.node.frontmatter.cover,
+        img: postEdge.node.frontmatter.img,
         title: postEdge.node.frontmatter.title,
-        date: postEdge.node.fields.date,
+        firm: postEdge.node.frontmatter.firm,
+        department: postEdge.node.frontmatter.department,
+        date: postEdge.node.frontmatter.date,
+        hired: postEdge.node.frontmatter.hired,
+        respons: postEdge.node.frontmatter.respons,
+        position: postEdge.node.frontmatter.position,
         excerpt: postEdge.node.excerpt,
-        timeToRead: postEdge.node.timeToRead
+        timeToRead: postEdge.node.timeToRead,
       });
     });
+    console.log(postList);
     return postList;
   }
-
-  render() {
+  render = () => {
     const postList = this.getPostList();
-    return (
-      <div>
-        {/* Your post list here. */
-        postList.map(post => (
-          <Link to={post.path} key={post.title}>
-            <h1>{post.title}</h1>
-          </Link>
-        ))
-}
-      </div>
-    );
+    if(this.props.category === "CV") {
+      return (
+        <CVView postList={postList} />
+      )
+    } else if(this.props.category == "project") {
+      return (
+        <ProjectView postList={postList} />
+      )
+    } else {
+      return (
+        <div>
+          {/* Your post list here. */
+          postList.map((post,i) => (
+            <Link to={post.path} key={i}>
+              <div className="flex center">
+                <div>
+                  <h2>{post.title}</h2>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+      )
+    }
   }
 }
 

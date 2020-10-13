@@ -39,9 +39,20 @@ export const pageQuery = graphql`
           timeToRead
           frontmatter {
             title
+            firm
+            department
             tags
-            cover
+            img {
+              childImageSharp {
+                  fluid(maxWidth: 600, quality: 50) {
+                    src
+                }
+              }
+            }
             date
+            hired
+            respons
+            position
           }
         }
       }
