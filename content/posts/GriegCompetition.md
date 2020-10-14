@@ -3,7 +3,8 @@ title: "The Intl. Edvard Grieg Piano Competition"
 department: "Director & project coordinator"
 firm: 'KODE'
 img: '../img/DSCF0444.jpg'
-date: "2016-2020"
+date: "11.09.2020"
+startdate: "01.09.2016"
 respons: '30 international pianists, 7 jury members, 10 days of intense competition, over 30 hours of live stream, final concert in collaboration with The Bergen Philharmonic Orchestra.'
 position: 2
 category: "project"

@@ -3,7 +3,8 @@ title: "Grieg Minute by Minute"
 department: "Project coordinator"
 firm: 'KODE, NRK, Bergen Philharmonic Orchestra'
 img: '../img/GriegMinuttForMinutt.jpg'
-date: "2018"
+date: "15.06.2018"
+startdate: "16.06.2018"
 respons: '30 Hour live TV-production. 600+ musicians, national broadcast and 700.000 viewers.'
 position: 1
 category: "project"

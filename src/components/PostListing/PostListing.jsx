@@ -16,6 +16,7 @@ class PostListing extends React.Component {
         firm: postEdge.node.frontmatter.firm,
         department: postEdge.node.frontmatter.department,
         date: postEdge.node.frontmatter.date,
+        startdate: postEdge.node.frontmatter.startdate,
         hired: postEdge.node.frontmatter.hired,
         respons: postEdge.node.frontmatter.respons,
         position: postEdge.node.frontmatter.position,

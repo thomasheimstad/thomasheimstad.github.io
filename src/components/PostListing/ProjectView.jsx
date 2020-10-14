@@ -14,7 +14,7 @@ const ProjectView = (props) => {
                 <h3>{post.title}</h3>
               </div>
               <div className="content flex column">
-                <p style={{fontStyle:"italic", marginBottom: '0'}}>{post.date}</p>
+                <p style={{fontStyle:"italic", marginBottom: '0'}}>{post.date[6]}{post.date[7]}{post.date[8]}{post.date[9]}</p>
                 <p style={{marginTop: '0', marginBottom: '0', fontWeight: '700'}}>{post.firm}</p>
                 <p style={{marginTop: '0', marginBottom: '0'}}>Role: {post.department}</p>
                 <p>{post.respons}</p>

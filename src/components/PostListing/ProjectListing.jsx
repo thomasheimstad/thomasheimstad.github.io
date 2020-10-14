@@ -32,7 +32,7 @@ export default function ProjectListing() {
                       }
                     }
                     date
-                    hired
+                    startdate
                     respons
                     position
                   }
