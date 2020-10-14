@@ -11,14 +11,15 @@
     }
     .jobCard {
       width: 20rem;
-      min-height: 25rem;
+      min-height: 23rem;
       border: 1px solid $secondary-font-color;
-      border-radius: 2%;
+      border-radius: 5px;
       margin: 2rem 1rem;
       overflow: hidden;
       transition: $base-in-timing $base-in-duration;
+      box-shadow: 2px 3px 7px darken($base-font-color, 10%);
       &:hover{
-        box-shadow: 5px 5px 15px darken($base-font-color, 10%);
+        box-shadow: 5px 5px 15px darken($base-font-color, 25%);
       }
       .title {
         padding: 3rem 0;
@@ -35,6 +36,10 @@
         padding: 0 1rem 1rem;
         p {
           color: $secondary-font-color;
+        }
+        p:first-of-type{
+          color: darken($secondary-font-color, 25%);
+          letter-spacing: -1px;
         }
       }
     }

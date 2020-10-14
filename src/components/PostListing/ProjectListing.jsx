@@ -42,7 +42,7 @@ export default function ProjectListing() {
           }
         `}
         render={data => (
-          <div id="projectListing" className="jobListing flex column center basePad">
+          <div title="projectListing" className="projectListing jobListing flex column center basePad">
             <PostListing postEdges={data.allMarkdownRemark.edges} category="project" />
           </div>
         )}

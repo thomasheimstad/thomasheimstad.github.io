@@ -19,7 +19,7 @@ export default function Footer() {
           }
         `}
         render={data => (
-          <div id="contact" className="contact flex center column basePad">
+          <div title="contact" className="contact flex center column basePad">
             <h2>Let's work together</h2>
             <hr style={{width: '5rem'}}/>
             <br/>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Img from "gatsby-image/withIEPolyfill";
 import { StaticQuery, graphql } from 'gatsby';
+import { Link, animateScroll as scroll } from "react-scroll";
 import {FaUserGraduate,FaBriefcase,FaComments,FaMedal,FaUsers} from 'react-icons/fa';
 
 export default function Welcome() {
@@ -32,11 +33,41 @@ export default function Welcome() {
           <div className="article">
             <p>An interactive CV - the contemporary choice</p>
             <div className="buttons flex row center" style={{width: '100%'}}>
-              <a href="#jobListing" alt="job list"><button><FaBriefcase size={26}/></button></a>
-              <a href="#eduListing" alt="education list"><button><FaUserGraduate size={26}/></button></a>
-              <a href="#projectListing" alt="project list"><button><FaUsers size={26}/></button></a>
-              <a href="#skilListing" alt="skill list"><button><FaMedal size={26}/></button></a>
-              <a href="#contact" alt="contact"><button><FaComments size={26}/></button></a>
+              <Link
+                to="jobListing"
+                alt="job list"
+                smooth={true}
+                duration={400}>
+                <button><FaBriefcase size={26}/></button>
+              </Link>
+              <Link
+                to="eduListing"
+                alt="education list"
+                smooth={true}
+                duration={400}>
+                <button><FaUserGraduate size={26}/></button>
+              </Link>
+              <Link
+                to="projectListing"
+                alt="project list"
+                smooth={true}
+                duration={400}>
+                <button><FaUsers size={26}/></button>
+              </Link>
+              <Link
+                to="skilListing"
+                alt="skill list"
+                smooth={true}
+                duration={400}>
+                <button><FaMedal size={26}/></button>
+              </Link>
+              <Link
+                to="contact"
+                alt="contact"
+                smooth={true}
+                duration={400}>
+                <button><FaComments size={26}/></button>
+              </Link>
             </div>
           </div>
           </div>

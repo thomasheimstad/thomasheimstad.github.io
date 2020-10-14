@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function EduListing(){
   return(
-    <div id="eduListing" className="eduListing flex center column basePad">
+    <div title="eduListing" className="eduListing flex center column basePad">
       <h2>Education</h2>
       <hr style={{width: '5rem'}}/>
       <div className="flex column">

@@ -3,17 +3,29 @@
   position: relative;
   box-shadow: 1px 2px 15px lighten($base-font-color, 50%);
   .frontHero {
+    margin-top: 3rem;
     overflow: hidden;
     height: 15rem;
     width: 15rem;
     border-radius: 50%;
+    @media screen and (max-width: 768px) {
+      margin-top: 3rem;
+      height: 10rem;
+      width: 10rem;
+    }
   }
   h1 {
     padding-top: 2rem;
     margin-bottom: 0;
+    @media screen and (max-width: 768px) {
+      letter-spacing: 1px;
+    }
   }
   p {
     text-align: center;
+    @media screen and (max-width: 768px) {
+      
+    }
   }
   .buttons {
     padding-top: 3rem;
@@ -23,6 +35,12 @@
       border-radius: 50%;
       &:hover {
         box-shadow: 2px 5px 15px $base-font-color;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      button {
+        margin: 0 2px;
+        padding: 1rem;
       }
     }
   }

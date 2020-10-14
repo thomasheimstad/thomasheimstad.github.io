@@ -3,8 +3,8 @@ title: "Seasonal work"
 department: "Warehouse"
 firm: 'Plastron AS'
 img: '../img/DSCF0472.jpg'
-date: "01.07.2013"
-hired: "31.07.2014"
+date: "31.07.2014"
+hired: "01.07.2013"
 respons: 'Warehouse, maintenance, invoicing, customer service.'
 position: 6
 category: "CV"

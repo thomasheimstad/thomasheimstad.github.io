@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function SkilListing(){
   return(
-    <div id="skilListing" className="eduListing flex center column basePad">
+    <div title="skilListing" className="skilListing eduListing flex center column basePad">
       <h2>Skills</h2>
       <hr style={{width: '5rem'}}/>
       <div className="flex column">

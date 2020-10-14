@@ -14,7 +14,7 @@ const CVView = (props) => {
                 <h3>{post.title}</h3>
               </div>
               <div className="content flex column">
-                <p style={{fontStyle:"italic", marginBottom: '0'}}>{post.hired} - {post.date}</p>
+                <p style={{marginBottom: '0'}}>{post.hired} - {post.date}</p>
                 <p style={{marginTop: '0', marginBottom: '0', fontWeight: '700'}}>@ {post.firm}</p>
                 <p style={{marginTop: '0', marginBottom: '0'}}>Dep: {post.department}</p>
                 <p>{post.respons}</p>
