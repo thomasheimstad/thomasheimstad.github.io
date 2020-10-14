@@ -38,35 +38,35 @@ export default function Welcome() {
                 alt="job list"
                 smooth={true}
                 duration={400}>
-                <button><FaBriefcase size={26}/></button>
+                <button aria-label="Button to job list"><FaBriefcase size={26}/></button>
               </Link>
               <Link
                 to="eduListing"
                 alt="education list"
                 smooth={true}
                 duration={400}>
-                <button><FaUserGraduate size={26}/></button>
+                <button aria-label="Button to education list"><FaUserGraduate size={26}/></button>
               </Link>
               <Link
                 to="projectListing"
                 alt="project list"
                 smooth={true}
                 duration={400}>
-                <button><FaUsers size={26}/></button>
+                <button aria-label="Button to project list"><FaUsers size={26}/></button>
               </Link>
               <Link
                 to="skilListing"
                 alt="skill list"
                 smooth={true}
                 duration={400}>
-                <button><FaMedal size={26}/></button>
+                <button aria-label="Button to skill list"><FaMedal size={26}/></button>
               </Link>
               <Link
                 to="contact"
                 alt="contact"
                 smooth={true}
                 duration={400}>
-                <button><FaComments size={26}/></button>
+                <button aria-label="Button to contact information"><FaComments size={26}/></button>
               </Link>
             </div>
           </div>

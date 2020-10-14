@@ -6,10 +6,14 @@ h1,h2,h3,h4,h5,h6 {
   font-family: $heading-font-family;
   letter-spacing: 5px;
   font-weight: 100;
+  font-display: swap;
+
 }
 p,i, li, button {
   font-family: $base-font-family;
   line-height: 1.5;
+  font-display: swap;
+
 }
 
 // Font Sizes
