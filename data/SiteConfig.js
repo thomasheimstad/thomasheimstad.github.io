@@ -16,7 +16,6 @@ const config = {
   postsPerPage: 0, // Amount of posts displayed per listing page.
   userName: "Thomas H", // Username to display in the author segment.
   userEmail: "thomasheimstad@gmail.com", // Email used for RSS feed's author segment
-  userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "Copenhagen, Denmark", // User location to display in the author segment.
   userAvatar: "", // User avatar to display in the author segment.
   userDescription:
