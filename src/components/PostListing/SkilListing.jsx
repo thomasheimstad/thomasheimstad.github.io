@@ -21,7 +21,7 @@ export default function SkilListing(){
           <p></p>
           <p>Logistics</p>
           <p>Budgets</p>
-          <p>Task tracking</p>
+          <p>Task management</p>
           <p>Digital setup</p>
           <p>Internal and external coordination</p>
         </div>
@@ -40,7 +40,6 @@ export default function SkilListing(){
           <p>High intrinsic motivation</p>
           <p>Fast learner</p>
           <p>Hard worker</p>
-          <p>High intrinsic motivation</p>
           <p>Enjoy working in teams</p>
         </div>
         <div>
