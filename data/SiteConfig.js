@@ -2,7 +2,7 @@ const config = {
   siteTitle: "Thomas Heimstad", // Site title.
   siteTitleShort: "CV and Bio", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Thomas Heimstad", // Alternative site title for SEO.
-  siteLogo: "/logos/thlogo-1024.png", // Logo used for SEO and manifest.
+  siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://thomasheimstad.github.io", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Presentation of your next employee", // Website description used for RSS feeds/meta description tag.
