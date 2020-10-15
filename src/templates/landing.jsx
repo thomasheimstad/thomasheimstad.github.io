@@ -18,10 +18,13 @@ class Landing extends React.Component {
         <div className="landing-container">
             <Helmet title={config.siteTitle}>
               <meta name="description" content={config.siteDescription} />
-              <meta name="og:title" content={config.siteTitle} />
-              <meta name="og:description" content={config.siteDescription} />
-              <meta name="og:image" content={config.siteImg} />
-              <meta name="og:type" content={config.siteType} />
+              <meta property="og:title" content={config.siteTitle} />
+              <meta property="og:description" content={config.siteDescription} />
+              <meta property="og:type" content={config.siteType} />
+              <meta property="og:image" content={config.siteImg} />
+              <meta property="og:image:secure_url" content={config.siteImg} />
+              <meta property="og:image:type" content="image/jpg" />
+
               </Helmet>
             <SEO />
             <Welcome />
