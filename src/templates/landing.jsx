@@ -22,9 +22,10 @@ class Landing extends React.Component {
               <meta property="og:description" content={config.siteDescription} />
               <meta property="og:type" content={config.siteType} />
               <meta property="og:image" content={config.siteImg} />
+              <meta name="image" property="og:image" content={config.siteImg} />
               <meta property="og:image:secure_url" content={config.siteImg} />
               <meta property="og:image:type" content="image/jpg" />
-
+              <meta name="author" content={config.siteTitle} />
               </Helmet>
             <SEO />
             <Welcome />
