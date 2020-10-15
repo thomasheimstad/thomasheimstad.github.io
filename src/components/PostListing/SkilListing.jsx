@@ -9,7 +9,6 @@ export default function SkilListing(){
         <div>
           <h3>Leadership</h3>
           <p></p>
-          <p>Inspire</p>
           <p>Coordinate effectively</p>
           <p>Communicate clearly</p>
           <p>Effectuate & fascilitate</p>
@@ -27,24 +26,22 @@ export default function SkilListing(){
           <p>Internal and external coordination</p>
         </div>
         <div>
-          <h3>Collaboration</h3>
-          <p></p>
-          <p>Teams</p>
-          <p>Chasing milestones</p>
-          <p>Hard worker</p>
-          <p>High intrinsic motivation affects those around me</p>
-          <p>Quick study, learning from others by collaborating</p>
-          <p>Not afraid of asking for help</p>
-          <p>Not the best at saying "no"</p>
-        </div>
-        <div>
           <h3>Production</h3>
           <p></p>
           <p>Risk management</p>
-          <p>Thorough preparations</p>
           <p>Schedules and timelines</p>
           <p>Hands on</p>
-          <p>Surprise management</p>
+          <p>Problemsolver</p>
+          <p></p>
+        </div>
+        <div>
+          <h3>Personal</h3>
+          <p></p>
+          <p>High intrinsic motivation</p>
+          <p>Fast learner</p>
+          <p>Hard worker</p>
+          <p>High intrinsic motivation</p>
+          <p>Enjoy working in teams</p>
         </div>
         <div>
           <h3>Webdev</h3>
