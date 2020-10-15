@@ -21,6 +21,7 @@ class Landing extends React.Component {
               <meta name="og:title" content={config.siteTitle} />
               <meta name="og:description" content={config.siteDescription} />
               <meta name="og:image" content={config.siteImg} />
+              <meta name="og:type" content={config.siteType} />
               </Helmet>
             <SEO />
             <Welcome />

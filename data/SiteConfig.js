@@ -4,6 +4,7 @@ const config = {
   siteTitleAlt: "Thomas Heimstad", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
   siteImg:"/logos/thomasheimstad.jpg",
+  siteType:"website",
   siteUrl: "https://thomasheimstad.github.io", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "Online CV for Thomas Heimstad", // Website description used for RSS feeds/meta description tag.
