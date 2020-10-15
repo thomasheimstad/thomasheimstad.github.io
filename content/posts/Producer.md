@@ -16,10 +16,10 @@ tags:
 
 ## 500 concerts a year, The International Edvard Grieg Piano Competition and Grieg Minute by Minute
 
-As the producer for KODE composer homes, I got to produce the International Edvard Grieg Piano Competition and the 30 hour long live TV-production Grieg Minute by Minute in collaboration with NRK and Bergen Philharmonic Orchestra. In addition to the musical programming and the project management of the museum's part, I designed and coded the website www.griegminuttforminutt.no.
+As the producer for KODE composer homes, I got to produce the International Edvard Grieg Piano Competition and the 30 hour long live TV-production Grieg Minute by Minute in collaboration with NRK and Bergen Philharmonic Orchestra. In addition to the musical programming and the project management of the museum's part, I designed and coded the website https://griegminuttforminutt.no.
 
-In addition to the projects, the museum hosted ca. 500 concerts, the annual collaboration with the International Festival (Festspillene i Bergen) and introduced the staff to Microsoft Teams, which we implemented in all our projects and daily activities. I contributed to this implementation.
+In addition to the projects, the museum hosted ca. 500 concerts, the annual collaboration with the International Festival (Festspillene i Bergen) and introduced the staff to Microsoft Teams, which we implemented in all our projects and daily activities.
 
-Skills acquired: Project management and organization, contemporary digital workflows, networking and sponsorship management, LEAN-principles and techniques, ReactJS, Html5, Css3.
+Skills acquired: Project management and organization, contemporary digital workflows, networking and sponsorship management, LEAN-principles, ReactJS, HTML, CSS.
 
 Sector: Culture - Archives, libraries and museums

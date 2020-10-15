@@ -10,11 +10,12 @@ position: 6
 category: "CV"
 tags:
     - customer service
+    - maintenance
+    - invoicing
 ---
 
 ## Warehouse and invoicing
 
 Two summers of seasonal work at father-in-law's en gros business. Mostly warehouse duty, maintenance and small scale production of aluminium roof ridges.
-Sales, purchases and marketing
 
-Sector: Private business, engros and warehouse.
+Sector: Private business, en gros and warehouse.

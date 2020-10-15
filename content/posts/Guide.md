@@ -15,6 +15,6 @@ tags:
 ---
 ## Guide, educator and keynote speaker
 
-Introducing daily visitors to the Edvard Grieg Museum Troldhaugen, guiding them through the historic grounds and communicating the history and the stories surrounding the musician, the composer and the human Edvard Grieg. In addition, the position included shop and reception duty, concert hosting, guard and information point duty, in-depth lecturing on chosen musical pieces and general customer service to 80.000 annual international visitors.
+Introducing daily visitors to the Edvard Grieg Museum Troldhaugen, guiding them through the historic grounds and communicating the history and the stories surrounding the musician, the composer and the human Edvard Grieg. In addition, the position included shop and reception duty, concert hosting, guard and information point duty, keynote lecturing on chosen musical pieces and customer service to 80.000 annual international visitors.
 
 Sector: Culture - Archives, libraries and museums
