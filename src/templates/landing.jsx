@@ -16,7 +16,12 @@ class Landing extends React.Component {
     return (
       <Layout>
         <div className="landing-container">
-            <Helmet title={config.siteTitle} />
+            <Helmet title={config.siteTitle}>
+              <meta name="description" content={config.siteDescription} />
+              <meta name="og:title" content={config.siteTitle} />
+              <meta name="og:description" content={config.siteDescription} />
+              <meta name="og:image" content={config.siteImg} />
+              </Helmet>
             <SEO />
             <Welcome />
             <JobListing />

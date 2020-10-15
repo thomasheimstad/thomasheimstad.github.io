@@ -3,9 +3,10 @@ const config = {
   siteTitleShort: "CV and Bio", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Thomas Heimstad", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
+  siteImg:"/logos/thomasheimstad.jpg",
   siteUrl: "https://thomasheimstad.github.io", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
-  siteDescription: "Presentation of your next employee", // Website description used for RSS feeds/meta description tag.
+  siteDescription: "Online CV for Thomas Heimstad", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssTitle: "Thomas Heimstad", // Title of the RSS feed
   siteFBAppID: "", // FB Application ID for using app insights
