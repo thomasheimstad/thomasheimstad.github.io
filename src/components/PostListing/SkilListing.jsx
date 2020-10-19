@@ -9,11 +9,14 @@ export default function SkilListing(){
         <div>
           <h3>Leadership</h3>
           <p></p>
-          <p>Coordinate effectively</p>
-          <p>Communicate clearly</p>
-          <p>Effectuate & fascilitate</p>
-          <p>Praise & correct</p>
-          <p>Representation</p>
+          <p>Effective coordination</p>
+          <p>Clear communication</p>
+          <p>Task and responsibility delegation</p>
+          <p>Business and personnel administration</p>
+          <p>Budgets, applications and reporting</p>
+          <p>Representation and presentation</p>
+          <p>Managing collaborations</p>
+          <p>Strategic implementation</p>
           <p>Building strong relationships with stakeholders on all levels</p>
         </div>
         <div>
@@ -28,19 +31,20 @@ export default function SkilListing(){
         <div>
           <h3>Production</h3>
           <p></p>
+          <p>Invoicing</p>
           <p>Risk management</p>
           <p>Schedules and timelines</p>
-          <p>Hands on</p>
-          <p>Problemsolver</p>
-          <p></p>
+          <p>Hands-on problemsolver</p>
         </div>
         <div>
           <h3>Personal</h3>
           <p></p>
-          <p>High intrinsic motivation</p>
           <p>Fast learner</p>
           <p>Hard worker</p>
+          <p>Open to further study</p>
+          <p>Continuous development</p>
           <p>Enjoy working in teams</p>
+          <p>High intrinsic motivation</p>
         </div>
         <div>
           <h3>Webdev</h3>
@@ -50,7 +54,7 @@ export default function SkilListing(){
           <p>CSS/SCSS</p>
           <p>GatsbyJS</p>
           <p>Google Analytics</p>
-          <p>GitHub</p>
+          <p>Github</p>
           <p>Webpack</p>
         </div>
         <div>
